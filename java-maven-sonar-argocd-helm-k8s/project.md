@@ -151,5 +151,4 @@ kubectl port-forward --address 0.0.0.0 svc/spring-boot-app-service 9090:80
 http://host_ip:9090/
 ```
 ---
-
-By following these instructions, you will have a fully functional CI/CD pipeline setup on an EC2 instance, leveraging Jenkins, Docker, SonarQube, and ArgoCD for continuous integration, static code analysis, and continuous deployment to a Kubernetes cluster.
+By following these instructions, you will have a fully functional CI/CD pipeline. This end-to-end Jenkins pipeline will automate the entire CI/CD process for a Java application, from code checkout to production deployment, leveraging Jenkins, Docker, SonarQube, and ArgoCD for continuous integration, static code analysis, and continuous deployment to a Kubernetes cluster.
