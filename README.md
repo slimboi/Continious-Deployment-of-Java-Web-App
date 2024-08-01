@@ -88,7 +88,7 @@ This is to enable jenkins have access to the Sonarqube server to store report fr
 
 ### 13. Configure Jenkins Pipeline
 - Update `Static Code Analysis` stage with `SonarQube` server URL
-- Include Repository URL `https://github.com/slimboi/Jenkins-Zero-To-Hero.git`
+- Include Repository URL `https://github.com/slimboi/Continious-Deployment-of-Java-Web-App.git`
 - Add path to Jenkinsfile `java-maven-sonar-argocd-helm-k8s/spring-boot-app/JenkinsFile`
 
 ### 14. Restart Jenkins
